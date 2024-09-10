@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: "Montserrat", sans-serif;
+
+}
+
+.master-container {
+    position: relative;
+}
+
+nav {
+
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+nav .btn button {
+    border: none;
+    background-color: orange;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 10px;
+    padding: 2px 20px;
+    margin: 5px 10px;
+}
+
+.closeBtn {
+    font-size: 30px;
+}
+
+.closeBtn button {
+    border: none;
+    background: transparent;
+    font-size: 30px;
+
+}
+
+.L-cont {
+    display: none;
+}
+
+.closeBtn2 {
+    font-size: 30px;
+}
+
+.closeBtn2 button {
+    border: none;
+    background: transparent;
+    font-size: 30px;
+
+}
+
+
+
+hr{
+    background-color: #f1921e;
+    padding: 3px;                        
+    border-radius: 8px;
+    color: white;
+    opacity: 2.7;
+
+}
+.head{
+    height: 500px;
+    width: 215vh;
+    /* border: 2px solid black; */
+    margin-left: 50px;
+    background-image: url("https://wallpapercave.com/wp/wp8637069.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+}
+.greeting{
+    height: 200px;
+    width: 500px;
+    /* border: 2px solid rgb(220, 0, 0); */
+    margin: 40px;
+    
+
+}
+.greeting h3{
+    font-size: 90px;
+    color: white;
+    text-transform: uppercase;
+    font-family: monospace;
+}
+.about{
+    /* border: 2px solid red; */
+    height: 220px;
+    width: 1000px;
+    border-radius: 15px;
+    margin-left: 200px;
+    background-color: darkturquoise;
+}
+.about p{
+    font-size: 22px;
+    text-align: justify;
+    font-weight: bold;
+    padding-top: 20px;
+    font-family: cursive;
+    padding-left: 60px;
+    padding-right: 60px;
+
+}
+.logo img{
+ position: relative;
+  right: 320px;
+  top: 30px;
+}
+.logo p{
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    right: 335px;
+    top: 30px;
+}
+.slide{
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-right: 60px;
+
+}
+.events{
+   
+    height: 400px;
+    width: 1375px;
+    
+    margin-left: 50px;
+    margin-top: 20px;
+    display: flex    ;
+}
+.services{
+ height: 400px;
+ width: 1375px;
+ /* border: 2px solid black; */
+ margin-left: 50px;
+ margin-top: 20px;
+ display: flex;
+}
+.about2{
+ height: 400px;
+ width: 1375px;
+ /* border: 2px solid black; */
+ margin-left: 50px;
+ margin-top: 20px;
+ display: flex;
+}
+.events-left{
+ width: 40%;
+height: 400px;
+ 
+}
+.events-left img{
+ margin-left: 90px;
+ margin-top: 20px;
+}
+.events-right{
+ width: 60%;
+
+height: 400px;
+background-color: rgb(124, 124, 124);
+border-radius: 10px;
+box-shadow: 10px 10px 5px gray;
+
+}
+.top-features{
+ margin: 30px;
+ text-align: center;
+ font-size: 40px;
+}
+.events-right p{
+ font-size: 25px;
+ text-align: justify;
+ text-overflow: clip;
+ margin-left: 40px;
+ margin-top: 20px;
+ margin-right: 20px;
+ font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+}
+.services-left{
+ width: 60%;
+height: 400px;
+border-radius: 10px;
+box-shadow: 10px 10px 5px gray;
+
+ 
+ background-color: rgb(124, 124, 124);
+}
+.services-right{
+ width: 40%;
+ /* border: 2px solid green; */
+height: 400px;
+
+}
+.services-right img{
+    margin: 90px;
+}
+.services-left p{
+    font-size: 25px;
+    text-align: justify;
+    text-overflow: clip;
+    margin-left: 40px;
+    margin-top: 20px;
+    margin-right: 20px;
+
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.about-left{
+ width: 40%;
+height: 400px;
+ /* border: 2px solid red; */
+}
+.about-right{
+ width: 60%;
+ border: 2px solid green;
+height: 400px;
+ background-color: rgb(124, 124, 124);
+ box-shadow: 10px 10px 5px gray;
+ border-radius: 10px;
+
+
+}
+.about-left img{
+    margin: 110px;
+    margin-left: 170px;
+}
+.about-right p{
+    font-size: 25px;
+    text-align: justify;
+    text-overflow: clip;
+    margin-left: 40px;
+    margin-top: 10px;
+    margin-right: 20px;
+
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

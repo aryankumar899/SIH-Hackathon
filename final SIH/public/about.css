@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+nav .btn button {
+    border: none;
+    background-color: orange;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 10px;
+    padding: 2px 20px;
+    margin: 5px 10px;
+}
+
+section {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #ddd;
+    /*border: 2px solid red; */
+}
+
+.container {
+    width: 80%;
+    /* border: 2px solid black;*/
+    display: block;
+    margin: auto;
+    padding-top: 100px;
+}
+
+.content-section {
+    float: left;
+    width: 100%;
+    /* border: 2px solid blue;    */
+}
+
+.image-section {
+    float: right;
+    width: 40%;
+    /* border: 2px solid blue; */
+}
+
+.image-section img {
+    height: auto;
+    width: 100%;
+}
+
+.content-section .title {
+    text-transform: uppercase;
+    font-size: 28px;
+}
+
+.content-section .content h3 {
+    margin-top: 20px;
+    color: #5d5d5d;
+    font-size: 21px;
+}
+
+.content-section .content .p {
+    font-size: 17px;
+    font-family: sans-serif;
+    line-height: 1.5;
+}
+
+.content-section .content .para {
+    margin-top: 20px;
+}
+
+.content-section .content .btn {
+    margin-top: 20px;
+    display: block;
+}
+
+.content-section .content button:hover {
+    background-color: #ff4040;
+}
+
+.content-section .content button {
+    background-color: #ff6a6a;
+    padding: 12px 25px;
+    color: #ffffff;
+    font-size: 15px;
+    letter-spacing: 1.5px;
+    border: none;
+    border-radius: 8px;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
+}
+
+.read-more-section {
+    opacity: 0;
+    /* Hidden by default */
+    transition: opacity 0.5s ease-in-out;
+    height: 0;
+    /* Collapse the section */
+    overflow: hidden;
+    /* Hide the overflowing content */
+    display: none;
+}
+
+.read-more-section.active {
+    margin-top: 20px;
+    display: block;
+    height: auto;
+    opacity: 1;
+    /* Fully visible */
+    animation: fadeIn 0.5s ease-in-out forwards;
+}
+
+.read-more-section.active .close-btn {
+    margin-top: 10px;
+}

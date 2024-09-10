@@ -1,0 +1,12 @@
+{
+  "name": "alumni",
+  "version": "1.0.0",
+  "description": "Alumni application",
+  "main": "express.js",
+   "type" : "module",
+  "scripts": {
+    "start" : "express.js node"
+  },
+  "author": "codeChamp",
+  "license": "ISC"
+}

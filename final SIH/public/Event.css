@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+nav {
+
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+nav .btn button {
+    border: none;
+    background-color: orange;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 10px;
+    padding: 2px 20px;
+    margin: 5px 10px;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background: rgb(16, 175, 215);
+    height: 100vh;
+
+}
+
+.content-section {
+   /* border: 2px solid rgb(229, 19, 19);*/
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px 10px;
+    padding: 0px;
+   
+
+}
+
+.container .content {
+   /* border: 2px solid rgb(190, 241, 8);*/
+    display: flex;
+    color: white;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.container .content:hover {
+    border: 2px solid white;
+    border-radius: 10px;
+    cursor: pointer;
+    animation: 5s ease-in-out;
+}
+
+.container .content .image img {
+    height: 150px;
+    width: 200px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.container .content .info {
+    /*border: 2px solid black;*/
+    margin: 10px 0px;
+    font-weight: 500;
+    width: 300px;
+    word-spacing: 8px;
+    text-align: center;
+}
+
+.container .content .btn {
+    margin: 20px;
+}
+
+.container .content .btn button {
+   
+    padding: 14px 20px;
+    border-radius: 8px;
+    border-radius: 8px;
+    font-size: 1.25rem;
+    border: 1px solid transparent;
+    cursor: pointer;
+    font-weight: 500;
+    background: white;
+    animation: .2 ease;
+    margin-top: auto;
+    align-self: center;
+}
+
+.container .content .btn button:hover {
+    color: white;
+    border: 1px solid white;
+    background: transparent;
+}
+
+
+.L-container {
+    border: 2px solid blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 0px 80px;
+    animation: .5s ease-in-out;
+
+}
+
+.L-container.active {
+    display: none;
+
+}
+
+form {
+    border: 4px solid red;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 50px;
+    background: transparent;
+}
+
+fieldset {
+    display: flex;
+    flex-wrap: wrap;
+    align-self: center;
+    flex-direction: column;
+    border: 2px solid blue;
+    border-radius: 20px;
+    box-shadow: 3px 3px 35px rgba(113, 115, 119, 0.7);
+    padding: 55px;
+    font-size: 34px;
+    background: linear-gradient(145deg, #af6aff7c, #55ffea7c);
+}
+
+fieldset .login {
+    font-size: 45px;
+    font-weight: bold;
+    margin: 10px;
+    color: blue;
+}
+
+legend {
+    border: 2px solid black;
+    display: flex;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    text-align: right;
+    padding: 10px;
+}
+
+legend:hover {
+    cursor: pointer;
+}
+
+lable {
+    margin: 0 20px;
+}
+
+input {
+    border: 1px solid;
+    margin: 20px 30px;
+    border-radius: 10px;
+    height: 50px;
+    width: 80%;
+    font-size: 32px;
+    padding-left: 10px;
+}
+
+.gender-options {
+    display: flex;
+    align-items: center;
+    padding: 0px 30px 0px 30px;
+    margin: 0px;
+}
+
+/* .gender-options input[typeauto="radio"] {
+    margin: ;
+    /* Minimal space between radio button and label */
+/* } */ 
+
+/* .gender-options label {
+    margin: ;
+    /* Adjust this if you want to control space between the two radio options */
+/* } */ 
+
+select {
+    margin: 20px 30px;
+    border-radius: 10px;
+    height: 50px;
+    width: 80%;
+    font-size: 32px;
+}
+
+.button {
+    width: 50%;
+    align-self: center;
+}
+
+fieldset div {
+    text-align: center;
+}
+
+.fa-solid.fa-xmark {
+    text-align: center;
+    color: red;
+}

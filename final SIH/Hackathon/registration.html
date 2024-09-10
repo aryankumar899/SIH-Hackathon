@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Student Login</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="/public/registration-page.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <form>
+            <fieldset>
+                <legend>
+                    <i class="fa-solid fa-xmark"></i>
+                </legend>
+                <div class="login"></div>
+                <div>
+                    <span>
+                        <i class="fa-solid fa-user"></i>
+                    </span>
+                    <input type="text" class="input" id="name" placeholder="Name" required>
+                </div>
+
+                <div>
+                    <span>
+                        <i class="fa-solid fa-envelope"></i>
+                    </span>
+                    <input type="email" class="input" id="email" placeholder="Email Address" required>
+                </div>
+
+
+                <div>
+                    <span>
+                        <i class="fa-solid fa-phone"></i>
+                    </span>
+                    <input type="tel" class="input" id="mobile" placeholder="Mobile Number" required>
+                </div>
+
+                <div class="gender-options">
+                    <span>
+                        <i class="fa-solid fa-venus-mars"></i>
+                    </span>
+                    <input type="radio" id="male" name="gender" value="male" class="input">
+                    <label for="male">Male</label>
+                    <input type="radio" id="female" name="gender" value="female" class="input">
+                    <label for="female">Female</label>
+                </div>
+
+                <div>
+                    <span>
+                        <i class="fa-solid fa-laptop-code"></i>
+                    </span>
+                    <select required>
+                        <option value="" disabled selected>Select Course</option>
+                        <option value="Btech">Btech</option>
+                        <option value="BCA">BCA</option>
+                        <option value="IT">IT (Information Technology)</option>
+                        <option value="Cybersecurity">Cybersecurity</option>
+                    </select>
+                </div>
+
+
+                <div>
+                    <span>
+                        <i class="fa-solid fa-school"></i>
+                    </span>
+                    <select required>
+
+                        <option value="" disabled selected>College/University</option>
+                        <option value="Dr.Shayama Prasad University Morabadi, Ranchi"> Dr.Shayama Prasad University
+                            Morabadi, Ranchi</option>
+                        <option value="BIT Mesra, Lalpur">BIT Mesra, Lalpur</option>
+                        <option value="BIT Mesra, Patna">BIT Mesra, Patna</option>
+                    </select>
+                </div>
+
+                <div>
+                    <span>
+                        <i class="fa-solid fa-user-graduate"></i>
+                    </span>
+                    <select>
+                        <option value="" disabled selected>Passout Year</option>
+                        <option value="2019-2020">2019-2020</option>
+                        <option value="2020-2021">2020-2021</option>
+                        <option value="2021-2022">2021-2022</option>
+                        <option value="2022-2023">2022-2023</option>
+                        <option value="2023-2024">2023-2024</option>
+                    </select>
+                </div>
+
+                <input type="submit" class="button" value="Register">
+                <div>
+                    Already have an Account? <a href="Login Page.html">Login</a>
+                </div>
+            </fieldset>
+        </form>
+
+    </div>
+
+    <script>
+        const close=document.querySelector("legend");
+        const container=document.querySelector(".container");
+
+        close.addEventListener('click',()=>{
+            container.classList.add("active");
+        })
+    </script>
+</body>
+
+</html>
